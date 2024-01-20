@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV File Upload</title>
+</head>
+<body>
+    <div class="container">
+        <h2>CSV File Upload</h2>
+        <form action="/calculate_volatility" method="post" enctype="multipart/form-data">
+            <label for="file">Select CSV File:</label>
+            <input type="file" name="file" accept=".csv" required>
+            <button type="submit">Upload and Calculate</button>
+        </form>
+    </div>
+</body>
+</html>
